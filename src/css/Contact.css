@@ -1,0 +1,24 @@
+.contact {
+  padding: 60px;
+  background: #0a192f;
+  color: white;
+  text-align: center;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.links a {
+  color: #64ffda;
+  text-decoration: none;
+  font-weight: bold;
+}
+.copyright {
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.6;
+}

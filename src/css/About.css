@@ -1,0 +1,49 @@
+.about {
+  padding: 80px 60px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.skill-item {
+  position: relative;
+  font-size: 50px;
+  cursor: pointer;
+
+  transition: transform 0.25s ease;
+}
+
+/* 👇 HAFİF OYNAMA */
+.skill-item:hover {
+  transform: translateY(-6px);
+}
+
+.skill-item span {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  background: #0a192f;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.skill-item:hover span {
+  opacity: 1;
+}
