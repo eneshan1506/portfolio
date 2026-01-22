@@ -14,7 +14,12 @@ function Projects() {
       github: "https://github.com/eneshan1506/weather-app",
       live: "https://weather-app-topaz-ten-24.vercel.app/",
     },
-    { title: "Calculator", desc: "Basic calculator" },
+    {
+      title: "Calculator App",
+      desc: "Calculator with keyboard support (Enter, Backspace, Esc)",
+      github: "https://github.com/eneshan1506/calculator-app",
+      live: "https://calculator-app-topaz-pi-54.vercel.app/",
+    },
     { title: "Movie Search", desc: "Search movies app" },
   ];
 
