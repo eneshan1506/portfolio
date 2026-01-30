@@ -20,7 +20,16 @@ function Projects() {
       github: "https://github.com/eneshan1506/calculator-app",
       live: "https://calculator-app-topaz-pi-54.vercel.app/",
     },
-    { title: "Movie Search", desc: "Search movies app" },
+    { title: "Movie APP", desc: "Search movies app" ,
+      desc: "Movie APP (Enter, Backspace, Esc)",
+      github: "https://github.com/eneshan1506/movie-app",
+      
+    },
+    { title: "To Do APP with TS", desc: "Search movies app" ,
+      desc: "Todo App with TypeScript",
+      github: "https://github.com/eneshan1506/todo-app-ts",
+      live: "https://todo-app-ts-ashy.vercel.app/",
+    },
   ];
 
   return (
